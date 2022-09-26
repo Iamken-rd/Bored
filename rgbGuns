@@ -1,0 +1,98 @@
+#include <stdio.h>
+#include <windows.h>
+
+void a(){
+    
+    // I go this model from https://www.asciiart.eu/art-and-design/geometries
+
+    //system("color 1");
+    printf("+--^----------,--------,-----,--------^-,\n");
+    printf("| |||||||||   `--------'     |          O\n");
+    printf("`+---------------------------^----------|\n");
+    printf("  `\\_,---------,---------,--------------'\n");
+    printf("     / XXXXXX /'|       /'\n");
+    printf("    / XXXXXX /  `\\    /'\n");
+    printf("   / XXXXXX /`-------'\n");
+    printf("  / XXXXXX /\n");
+    printf(" / XXXXXX /\n");
+    printf("(________( \n");
+    printf(" `------'\n");
+}
+
+void b(){
+    system("color 2");
+    a();
+   
+}
+void c(){
+    system("color 3");
+    a();
+    
+}
+void d(){
+    system("color 4");
+    a();
+   
+}
+void e(){
+    system ("color 5");
+    a();
+    
+}
+void f(){
+    system("color 6");
+    a();
+    
+}
+void g(){
+    system("color 7");
+    a();
+   
+}
+void h(){
+    system("color 8");
+    a();
+    
+}
+void l(){
+    system("color 9");
+    a();
+    
+}
+void main(){
+system("cls");
+int num,sec;
+
+printf("Enter how long you want it to be: ");
+scanf("%d",&num);
+printf("Enter delay in sec: ");
+scanf("%d",&sec);
+for(int i=1;i<=num;i++){
+    
+   // a();
+   // sleep(sec);
+    b();
+    sleep(sec);
+    c();
+    sleep(sec);
+    d();
+    sleep(sec);
+    e();
+    sleep(sec);
+    f();
+    sleep(sec);
+    g();
+    sleep(sec);
+    h();
+    sleep(sec);
+    l();
+    sleep(sec);
+    system("cls");
+
+
+}
+printf("\n");
+printf("\t\t\t\tThank you for wasting yout time with me :D!\n");
+printf("\n");
+
+}
